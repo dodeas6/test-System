@@ -67,6 +67,7 @@ st.markdown(f"""
         <center><img src="{LOGO_URL}" width="180"></center>
         <div style="font-size:32px; margin-top:15px; font-family:Cairo; color:#1d4c2b !important; font-weight:900;">نظام إدارة بيانات المسافرين والحقائب</div>
         <div style="font-family:Orbitron; font-size:24px; letter-spacing:4px; margin-top:5px; color:#1d4c2b !important; font-weight:bold;">IRAQI AIRWAYS</div>
+	<div style="font-family:Orbitron; font-size:24px; letter-spacing:4px; margin-top:5px; color:#1d4c2b !important; font-weight:bold;">Desgined by Eng. Mohammad Abdulsattar </div>
     </div>
     <br>
     """, unsafe_allow_html=True)
