@@ -50,7 +50,6 @@ if not st.session_state["auth"]:
     st.markdown(f'<div style="text-align:center; padding-top:50px;"><img src="{LOGO_URL}" width="250"></div>', unsafe_allow_html=True)
     _, col_mid, _ = st.columns([1, 2, 1])
     with col_mid:
-		<div style="font-family:Orbitron; font-size:24px; letter-spacing:4px; margin-top:5px; color:#1d4c2b !important; font-weight:bold;">Desgined by Eng. Mohammad Abdulsattar </div>
         st.markdown(f"<h2 style='text-align:center;'>بوابة دخول الموظفين</h2>", unsafe_allow_html=True)
 		user = st.text_input("اسم المستخدم")
         pw = st.text_input("كلمة المرور", type="password")
