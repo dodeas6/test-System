@@ -50,7 +50,8 @@ if not st.session_state["auth"]:
     st.markdown(f'<div style="text-align:center; padding-top:50px;"><img src="{LOGO_URL}" width="250"></div>', unsafe_allow_html=True)
     _, col_mid, _ = st.columns([1, 2, 1])
     with col_mid:
-        st.markdown(f"<h2 style='text-align:center;'>بوابة دخول الموظفين</h2>", unsafe_allow_html=True)
+        st.markdown(f"<h2 style='text-align:center; margin-bottom:0;'>بوابة دخول الموظفين</h2>", unsafe_allow_html=True)
+        st.markdown(f"<div style='text-align:center; font-family:Orbitron; font-size:16px; color:#cccccc !important; margin-bottom:20px;'>Designed by Eng. Mohammad Abdulsattar</div>", unsafe_allow_html=True)
         user = st.text_input("اسم المستخدم")
         pw = st.text_input("كلمة المرور", type="password")
         if st.button("دخول"):
@@ -67,7 +68,7 @@ st.markdown(f"""
         <center><img src="{LOGO_URL}" width="180"></center>
         <div style="font-size:32px; margin-top:15px; font-family:Cairo; color:#1d4c2b !important; font-weight:900;">نظام إدارة بيانات المسافرين والحقائب</div>
         <div style="font-family:Orbitron; font-size:24px; letter-spacing:4px; margin-top:5px; color:#1d4c2b !important; font-weight:bold;">IRAQI AIRWAYS</div>
-	<div style="font-family:Orbitron; font-size:24px; letter-spacing:4px; margin-top:5px; color:#1d4c2b !important; font-weight:bold;">Desgined by Eng. Mohammad Abdulsattar </div>
+	<div style="font-family:Orbitron; font-size:24px; letter-spacing:4px; margin-top:5px; color:#1d4c2b !important; font-weight:bold;">Designed by Eng. Mohammad Abdulsattar </div>
     </div>
     <br>
     """, unsafe_allow_html=True)
