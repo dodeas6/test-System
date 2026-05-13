@@ -51,7 +51,8 @@ if not st.session_state["auth"]:
     _, col_mid, _ = st.columns([1, 2, 1])
     with col_mid:
         st.markdown(f"<h2 style='text-align:center;'>بوابة دخول الموظفين</h2>", unsafe_allow_html=True)
-        user = st.text_input("اسم المستخدم")
+        st.markdown(f"<h2 style='text-align:center;'>تصميم المهندس محمد عبد الستار</h2>", unsafe_allow_html=True)
+		user = st.text_input("اسم المستخدم")
         pw = st.text_input("كلمة المرور", type="password")
         if st.button("دخول"):
             if user == "iraqi_admin" and pw == "ia2024":
